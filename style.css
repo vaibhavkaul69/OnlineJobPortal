@@ -1,0 +1,385 @@
+*
+{
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+	font-family: 'Raleway', sans-serif;
+	scroll-behavior: smooth;
+}
+body
+{
+	overflow-x: scroll;
+}
+#bg-body-color
+{
+	background:linear-gradient(to right,#A1FFCE,#FAFFD1);
+	overflow-x: hidden;
+}
+/*Navbar background color*/
+.bg-light,
+.navbar-light
+{
+	background:linear-gradient(to right,#A1FFCE,#FAFFD1) !important;
+	
+}
+/*Our partners section homepage*/
+.heading-text
+{
+	margin-top:5rem;
+}
+.description
+{
+	font-size:1.5rem;
+}
+.card
+{
+	min-height:100px !important;
+}
+.card-img-top
+{
+	width:100% !important;
+	height:150px !important;
+}
+/*Navbar text links*/
+.nav-link
+{
+	color:black !important;
+	font-size: 1.2rem;
+}
+/*Navbar login  button*/
+#nav-login
+{
+	color:black !important;
+	font-size: 1.3rem;
+	height:50px;
+	border-radius: 20px;
+	background-color: #A1FFCE;
+	width:150px;
+}
+/*Registeration form*/
+#register-form
+{
+	background:rgba(0, 0, 0, 0.5);
+	width:500px;
+	min-height:500px;
+}
+#register-page-bg
+{
+	height:150vh;
+	background:url("images/register-bg-image.jpg") center  ;
+	background-size: 100% 100%;
+}
+/*Navbatr Logo Image*/
+.navbar-logo
+{
+	height:100px;
+	width:150px;
+}
+
+/*Jumbtron background image*/
+.bg-image
+{
+	height:100vh;width:100%;
+	background-image: url("images/recruitment-bg.jpg");
+	background-size: 100% 100%;
+	border-radius:0px;
+}
+/*Custom font-size class*/
+.f-size-one
+{
+	font-size:1.3rem; /*font size from 1rem to 1.5rem*/
+}
+.f-size-two
+{
+	font-size:1.7rem;/*font size form 1.6rem-2rem*/
+}
+/*All the table tags*/
+table
+{
+	width:100% !important;
+	overflow-x:scroll !important;
+}
+/*jobseeker feedback form*/
+#jobSeekerFeedbackForm
+{
+	width:500px;
+	box-shadow:0 1px 20px 0 rgba(46,61,73,.2);
+}
+/*
+h1,h2,h3,h4,h5,h6
+{
+	margin: 0 0 .5em;
+	font-weight: 500;
+	line-height: 1.1;
+}
+*/
+/*
+
+h1 { font-size: 2.25em; } /* 36px 
+h2 { font-size: 1.75em; } /* 28px 
+h3 { font-size: 1.375em; } /* 22px 
+h4 { font-size: 1.125em; } /* 18px 
+h5 { font-size: 1em; } /* 16px 
+h6 { font-size: .875em; } /* 14px 
+
+p
+{
+	margin: 0 0 1.5em;
+	line-height: 1.5;
+}
+
+blockquote
+{
+	padding: 1em 2em;
+	margin: 0 0 2em;
+	border-left: 5px solid #eee;
+}
+
+hr
+{
+	height: 0;
+	margin-top: 1em;
+	margin-bottom: 2em;
+	border: 0;
+	border-top: 1px solid #ddd;
+}
+
+table
+{
+	margin:auto;
+	background-color: transparent;
+	border-spacing: 0;
+	border-collapse: collapse;
+	border-top: 0px solid #ddd;
+}
+
+th
+{
+	padding: .5em 1em;
+	vertical-align: top;
+	text-align: left;
+}
+
+
+*/
+
+/* -----------------------
+Layout styles
+------------------------*
+
+
+.header
+{
+	color: #fff;
+	background: #555;
+	padding: 1em 1.25em;
+}
+
+.header-heading { margin: 0; }
+
+.nav-bar
+{
+	background: #000;
+	padding: 0;
+}
+
+.content
+{
+	padding: 1em 1.25em;
+	background-color: #fff;
+}
+
+.footer
+{
+	color: #fff;
+	background: #000;
+	padding: 1em 1.25em;
+}
+*/
+/* -----------------------
+Nav
+-----------------------
+
+.nav
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.nav li
+{
+	display: inline;
+	margin: 0;
+}
+
+.nav a
+{
+	display: block;
+	padding: .7em 1.25em;
+	color: #fff;
+	text-decoration: none;
+	border-bottom: 1px solid gray;
+}
+
+.nav a:link { color: white; }
+.nav a:visited { color: white; }
+
+.nav a:focus
+{
+	color: black;
+	background-color: white;
+}
+
+
+.nav a:active
+{
+	color: white;
+	background-color: red;
+}
+*/
+/* -----------------------
+Single styles
+------------------------
+
+.img-responsive { max-width: 100%; }
+
+.btn
+{
+	color: #fff !important;
+	background-color: royalblue;
+	border-color: #222;
+	display: inline-block;
+	padding: .5em 1em;
+	margin-bottom: 0;
+	font-weight: 400;
+	line-height: 1.2;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+	border: 1px solid transparent;
+	border-radius: .2em;
+	text-decoration: none;
+}
+
+
+.btn:active
+{
+	color: #fff !important;
+	background-color: red;
+}
+
+.table
+{
+	width: 100%;
+	max-width: 100%;
+	margin-bottom: 20px;
+}
+
+.list-unstyled
+{
+	padding-left: 0;
+	list-style: none;
+}
+
+.list-inline
+{
+	padding-left: 0;
+	margin-left: -5px;
+	list-style: none;
+}
+
+.list-inline > li
+{
+	display: inline-block;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+*/
+
+/* -----------------------
+Wide styles Responsiveness
+------------------------*/
+@media only screen and (min-width:1100px) and (max-width:1200px)
+{
+		#register-page-bg
+		{
+			height:100vh;
+		}
+}
+@media (max-width:770px)
+{
+		#register-page-bg
+		{
+			height:100vh;
+		}
+}
+@media (max-width: 42em)
+{
+	.header { padding: 1.5em 3em; }
+	.nav-bar { padding: 1em 3em; }
+	.content { padding: 2em 3em; }
+	.footer { padding: 2em 3em; }
+	
+	.nav li
+	{
+		display: inline;
+		margin: 0 1em 0 0;
+	}
+	
+	.nav a
+	{
+		display: inline;
+		padding: 0;
+		border-bottom: 0;
+	}
+	
+}
+@media (max-width:570px)
+{
+	.adminjobseekprofile-heading-top
+	{
+		font-size:3rem;
+	}
+	.adminjobseekprofile-subheading-top
+	{
+		font-size:2rem;
+	}
+
+}
+@media (max-width:500px)
+{
+	
+		#login-menu
+	{
+		margin:7rem auto;
+		width:100%;
+		height:100%;
+		position: static;
+		background:white;
+		
+	}
+	#register-form
+	{
+		background:rgba(0, 0, 0, 0.5);
+		width:100%;
+		min-height:500px;
+	}
+	/*jobseeker feedback form*/
+	#jobSeekerFeedbackForm
+	{
+		width:100%;
+	}
+}
+@media only screen and (max-width:367px)
+{
+	/*Navbar login  button*/
+	#nav-login
+	{
+		
+		font-size: 1rem;
+		background-color: #A1FFCE;
+		width:100px;
+	}
+}
